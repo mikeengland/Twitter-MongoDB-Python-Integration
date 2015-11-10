@@ -1,9 +1,8 @@
 from pymongo import MongoClient
-from bson import json_util, ObjectId
+from bson import json_util
 import pandas as pd
 from pandas import DataFrame
 from pandas.io.json import json_normalize
-import numpy as np
 import requests
 from requests_oauthlib import OAuth1
 import json
